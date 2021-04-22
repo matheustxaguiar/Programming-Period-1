@@ -1,4 +1,4 @@
-#C:\Users\mathe\PycharmProjects\exerciciosifes
+# C:\Users\mathe\PycharmProjects\exerciciosifes
 # -*- coding: utf-8 -*-
 #
 #  Apnp10.py
@@ -14,9 +14,9 @@
 #  output=Num1 = 10.500 Num2 = 11.200
 
 ###########################
-#Algoritmo
+# Algoritmo
 ###########################
-'''
+"""
 Algoritmo
 inicio
   real: num1; // número real qualquer
@@ -34,20 +34,20 @@ inicio
   escreva('Num1 = % Num2 = %' % (num1, num2))
   fimse
 fim.
-'''
+"""
 
 ###########################
-#Código fonte em Python 3
+# Código fonte em Python 3
 ###########################
 
-#Entrada de dados
+# Entrada de dados
 num1 = float(input('Primeiro número: '))
 num2 = float(input('Segundo núcmero: '))
 
-#Processamento de Dados
-num1 = num1+num2
-num2 = num1-num2
-num1 = num1-num2
+# Processamento de Dados
+num1 = num1 + num2
+num2 = num1 - num2
+num1 = num1 - num2
 
-#Saída de dados
-print('Num1 = %.3f Num2 = %.3f' % (num1, num2))
+# Saída de dados
+print('PRIMEIRO NÚMERO = %.3f SEGUNDO NÚMERO = %.3f' % (num1, num2))
